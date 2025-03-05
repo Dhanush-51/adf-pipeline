@@ -1,0 +1,9 @@
+{
+	"name": "sampledfdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ddb076be-70a7-4883-8d46-773585caaa95",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
