@@ -9,6 +9,12 @@
 					"referenceName": "quesion2_data_from_api",
 					"type": "PipelineReference"
 				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "question1_data_from_api",
+					"type": "PipelineReference"
+				}
 			}
 		],
 		"type": "ScheduleTrigger",
