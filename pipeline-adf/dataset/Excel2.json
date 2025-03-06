@@ -1,0 +1,31 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blog_storage_for_data",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sheets_for_excel": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "@dataset().sheets_for_excel",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().sheets_for_excel",
+					"type": "Expression"
+				},
+				"container": "container-for-blob-storage-for-assignement"
+			}
+		},
+		"schema": []
+	}
+}

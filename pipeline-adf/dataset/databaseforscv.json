@@ -1,0 +1,12 @@
+{
+	"name": "databaseforscv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_for_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
