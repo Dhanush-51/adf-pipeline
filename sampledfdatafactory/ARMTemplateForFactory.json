@@ -1292,6 +1292,13 @@
 							"type": "PipelineReference"
 						},
 						"parameters": {}
+					},
+					{
+						"pipelineReference": {
+							"referenceName": "question1_data_from_api",
+							"type": "PipelineReference"
+						},
+						"parameters": {}
 					}
 				],
 				"type": "ScheduleTrigger",
@@ -1306,7 +1313,8 @@
 				}
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/pipelines/quesion2_data_from_api')]"
+				"[concat(variables('factoryId'), '/pipelines/quesion2_data_from_api')]",
+				"[concat(variables('factoryId'), '/pipelines/question1_data_from_api')]"
 			]
 		}
 	]
