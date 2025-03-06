@@ -1,0 +1,17 @@
+{
+	"name": "json_data_from_api",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_for_api",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}
