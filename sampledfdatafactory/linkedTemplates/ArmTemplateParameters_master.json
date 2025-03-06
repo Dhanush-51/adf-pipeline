@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sampledfdatafactory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"blog_storage_for_data_connectionString": {
+			"value": ""
+		},
+		"linked_service_for_sql_password": {
+			"value": ""
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://api.restful-api.dev/objects"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "dataserver1221.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "datadb"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "dhanush"
+		},
+		"linked_service_for_api_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/users"
+		},
+		"linked_service_for_sql_properties_typeProperties_server": {
+			"value": "database-server-for-assignment.database.windows.net"
+		},
+		"linked_service_for_sql_properties_typeProperties_database": {
+			"value": "database-for-assignment"
+		},
+		"linked_service_for_sql_properties_typeProperties_userName": {
+			"value": "Dhanush"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
