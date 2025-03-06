@@ -1,0 +1,24 @@
+{
+	"name": "SqlServerTableforcsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_for_sql",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tables": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "stage",
+			"table": {
+				"value": "@dataset().tables",
+				"type": "Expression"
+			}
+		}
+	}
+}

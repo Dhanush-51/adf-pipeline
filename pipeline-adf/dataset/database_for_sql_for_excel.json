@@ -1,0 +1,16 @@
+{
+	"name": "database_for_sql_for_excel",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_service_for_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customer"
+		}
+	}
+}
